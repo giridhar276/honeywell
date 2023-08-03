@@ -1,0 +1,116 @@
+
+** Everything in python is object **
+** Every object contains methods ****
+
+
+
+objects
+------------
+
+number
+---------
+number can be integer or decimal or octal or hexa.
+
+val = 10
+aval = 34.43
+
+
+string
+-------
+string is defined in single or double or triple quotes.
+
+aName = 'python programming'
+bName = "unix programming"
+cname = """java programming"""
+dName = '''scala programming'''
+
+eName = 'Python'
+ENAME = "Python'
+Ename = "python'
+
+list ( array in C )
+------------------
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+list elements are defined in [].
+
+aList = [10,20,30]
+bList = ["unix","java",40,34.32]
+
+
+
+tuple  ( immutable , read only , uneditable )
+-------
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+tuple elements are defined in ().
+** Elements inside tuple cant be modified directly **
+
+
+atup = (30,40,50)
+btup = (30,"python","java")
+
+# list of lists
+employees = [["ram",'1-1-90','US'],['rita','2-2-90','UK'] ]
+
+
+employees = [("ram",'1-1-90','US'),('rita','2-2-90','UK')]
+
+
+
+
+
+dictionary  ( hashmap , hash , json )
+-------------------------------------------
+dictionary contains elements in the form of keys and values.
+dictionary is defined in {}.
+In dictionary , keys are always UNIQUE  , key can be number or string used to identify the value.
+                value can be number or string or list or tuple or dictionary or any other complex structure.
+             
+
+
+
+syntax:   object = { key:value , key:value , key:value }
+           book  = {"chap1":10 ,"chap2":20 ,"chap3":30}
+         bookinfo  = {"chap1":['rao','UK'] ,"chap2":['rita','US'] }
+          numinfo ={1:2,3:4,:5:6}
+          book  = {"chap1":10 ,"chap2":20 ,"chap3":30,"chap1":100}
+
+
+a = 10
+a = 100
+print(a)
+
+
+
+
+
+
+
+
+
+set
+----
+set is UNORDERED collection of UNIQUE elements of the SAME type.
+
+aset = {10,10,20,20,30,30}
+bset = {30,40,50}
+
+
+
+
+mutable | immutable
+---------------------
+
+mutable objects ( changeable)   :  list dictionary set
+immutable objects ( unchangeable): number  string tuple
+
+
+
+
+
+
+
+
+
+
