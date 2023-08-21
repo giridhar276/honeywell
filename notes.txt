@@ -9,6 +9,9 @@ objects
 
 number
 ---------
+
+
+
 number can be integer or decimal or octal or hexa.
 
 val = 10
@@ -104,6 +107,140 @@ mutable | immutable
 
 mutable objects ( changeable)   :  list dictionary set
 immutable objects ( unchangeable): number  string tuple
+
+
+
+operators
+------------
+
+
+arithemtic operators :  + - * % /
+
+
+relational operators :  <  <= > >=  == !=
+
+logical operators :  and  or  not
+
+assignment operators :( ++ and -- are NOT allowed in python )
+
+val = 1
+
+val = val + 1    (or)  val+=1  
+
+
+special operators :
+------------------
+
++ ( concat )
+*
+in
+as
+
+
+
+
+file handling
+-------------
+
+
+working with flat files ( txt  csv  tsv  log conf  xml  json  ....)
+--------------------------------------------------------
+
+modes:
+read ( r)
+write( w)
+append ( a)
+
+
+open the file
+-----------------
+
+syntax:    object = open(filename,mode)
+example:     fr   = open('customers.txt','r')   # read mode
+             # file should exist to read the file
+
+             fw   = open('customers.txt','w')   # write mode
+             # if file is NOT existing ... file gets created first
+             # if file is already existing... it overwrite the existing content.
+
+
+             fa   = open('customers.txt','a')   # append mode
+             # if file is NOT existing ... file gets created first
+             # if file is already existing... it appends the new content.
+
+
+
+
+closing the file
+---------------
+fr.close()
+
+
+
+
+
+
+read operation
+---------------
+
+ways of reading the file
+
+- reading line by line using file object
+- fobj.readlines()  # return output in the list
+- fobj.read()       # return single string
+- using csv library
+- using pandas library
+
+
+
+
+
+working with third party files ( docx  xlsx  zip rar 7z  pdf ..... )
+
+
+
+
+Exception handling
+-----------------
+There are two types of errors
+
+1. syntax error
+2. semantic error or logical error
+
+
+Hanlding the errors that occurs during the runtime is known as exception handling.
+
+try
+except
+else
+finally
+
+
+
+
+
+
+library | package | module | routines
+-------------------------
+Every library contains set of methods.
+
+
+There are 2 types of libraries
+
+
+builtin libraries
+------------------
+builtin libraries are installed with python.
+with Anaconda :  8000+ packages mainly related to analytics and ML
+
+
+third party libraries
+---------------------
+Depending on my requirement, developer has to install the third party library from  www.pypi.org
+
+- installing using pip tool
+- downloading and the installing the package manually.
+
 
 
 
